@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Вибір туристичної подорожі</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+	
+	<!-- <div class="container-fluid">
+		<h1>Выбор туристического путешествия</h1>
+		<p>Найдите лучшие варианты</p>
+	</div> -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;"> -->
+  <a class="navbar-brand" href="#">Onlinetours</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">О нас</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Отзывы</a>
+      </li>
+    </ul>
+  </div>
+<div class="dropdown">
+  <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Служба помощи
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item">+3 806 678 678 67</a>
+    <a class="dropdown-item">+3 806 678 678 67</a>
+    <a class="dropdown-item">+3 806 678 678 67</a>
+  </div>
+</div>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Поиск</button>
+  </form>
+
+</nav>
+
+<br>
+<div class="row container">
+	<div class="col-sm-3 alert alert-danger" role="alert">
+		
+		
+		<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Откуда</label>
+      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Киев</option>
+        <option value="1">Харьков</option>
+        <option value="2">Львов</option>
+        <option value="3">Полтава</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Куда</label>
+      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected="">Австрия</option>
+           <option>Беларусь</option>
+            <option>Бельгия</option>
+            <option>Болгария</option>
+            <option>Великобритания</option>
+            <option>Германия</option>
+            <option>Греция</option>
+            <option>Дания</option>
+            <option>Испания</option>
+            <option>Италия</option>
+            <option>Польша</option>
+            <option>Россия</option>
+            <option>Украина</option>
+            <option>Франция</option>
+            <option>Черногория</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Состав тура</label>
+    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Полный пакет</option>
+        <option value="1">Проживание+трансфер</option>
+        <option value="2">Проживание</option>
+        <option value="3">Проживание+перелет</option>
+      </select>
+  </div>
+  <div class="form-group">
+    <label>Начало тура</label>
+    <input type="text" class="form-control" placeholder="">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label>City</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="form-group col-md-4">
+      <label>К-во дней</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-9">
+      <label>Диапазон цены</label>
+      <input type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group">
+    <!-- <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div> -->
+  </div>
+  <button type="submit" class="btn btn-primary">Поиск</button>
+</form></div>
+	<div class="col-sm-9">
+		
+		<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="" alt="Турция">
+    <hr>
+    <div class="card-body">
+      <h5 class="card-title">Город</h5>
+      <p class="card-text">Описание<p>Цена</p></p>
+      <a href="booking.html" class="btn btn-danger">Заказать</a>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="" alt="Турция">
+    <hr>
+    <div class="card-body">
+      <h5 class="card-title">Город</h5>
+      <p class="card-text">Описание<p>Цена</p></p>
+      <a href="booking.html" class="btn btn-danger">Заказать</a>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="" alt="Турция">
+    <hr>
+    <div class="card-body">
+      <h5 class="card-title">Город</h5>
+      <p class="card-text">Описание<p>Цена</p></p>
+        <a href="booking.html" class="btn btn-danger">Заказать</a>
+    </div>
+  </div>
+
+</div>
+		
+<br>
+		<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="" alt="Турция">
+    <hr>
+    <div class="card-body">
+      <h5 class="card-title">Город</h5>
+      <p class="card-text">Описание<p>Цена</p></p>
+      <a href="booking.html" class="btn btn-danger">Заказать</a>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="" alt="Турция">
+    <hr>
+    <div class="card-body">
+      <h5 class="card-title">Город</h5>
+      <p class="card-text">Описание<p>Цена</p></p>
+      <a href="booking.html" class="btn btn-danger">Заказать</a>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="" alt="Турция">
+    <hr>
+    <div class="card-body">
+      <h5 class="card-title">Город</h5>
+      <p class="card-text">Описание<p>Цена</p></p>
+        <a href="booking.html" class="btn btn-danger">Заказать</a>
+
+    </div>
+
+
+</div>
+</div>
+<br>
+<div class="align align-center">
+<nav aria-label="...">
+ <ul class="pagination ">
+    <li class="page-item disabled">
+      <span class="page-link">Предыдущая</span>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active">
+      <span class="page-link">
+        2
+        <span class="sr-only">(current)</span>
+      </span>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Следующая</a>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
